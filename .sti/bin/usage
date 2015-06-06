@@ -1,0 +1,13 @@
+
+#!/bin/bash -e
+cat <<EOF
+This is a STI jboss-eap-retrieve-artifact-sti image:
+To use it, install STI: https://github.com/openshift/source-to-image
+
+Sample invocation:
+
+sti build git://<source code> jboss-eap-retrieve-artifact-sti <application image>
+
+You can then run the resulting image via:
+docker run <application image>
+EOF
